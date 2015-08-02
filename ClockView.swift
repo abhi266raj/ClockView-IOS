@@ -3,13 +3,13 @@ import UIKit
 public class ClockView:UIView{
     private let twoPi=3.142857*2
     
-    var hour:Double=1{
+   public var hour:Double=1{
         didSet{
             self.setNeedsDisplay()
         }
     }
     
-    var minute:Double=10{
+    public var minute:Double=10{
         didSet{
             self.setNeedsDisplay()
         }
